@@ -2,7 +2,7 @@ from PIL import Image
 import easyocr
 import numpy as np
 
-reader = easyocr.Reader(['en'])
+# reader = easyocr.Reader(['en'])
 
 
 def get_image_text(image_path, language=["en"]):
